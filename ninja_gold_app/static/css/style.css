@@ -1,0 +1,88 @@
+* {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#total_gold {
+	display: flex;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+#total_gold p {
+	padding-left: 10px;
+	margin-left: 20px;
+	letter-spacing: 2px;
+}
+
+#amount {
+	width: 15%;
+	border: 2px solid black;
+	box-shadow: 2px 2px 2px black;
+}
+
+#locations {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+#locations .location {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 20px 20px 20px;
+	border: 3px solid black;
+	box-shadow: 1px 1px 4px black;
+}
+
+#locations .location h3,
+p {
+	margin-bottom: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#locations .location a {
+	margin-top: 40px;
+	text-decoration: none;
+	color: black;
+	box-shadow: 3px 3px 5px black;
+	border: 3px solid black;
+	padding: 5px;
+	width: 80%;
+	text-align: center;
+	font-weight: bold;
+}
+
+#activity_log {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+#activities {
+	width: 100%;
+	height: 30vh;
+	padding: 10px;
+	border: 3px solid black;
+	overflow-y: scroll;
+	resize: none;
+	text-align: left;
+}
+
+#activities .green {
+	color: green;
+	font-weight: bold;
+}
+
+#activities .red {
+	color: red;
+	font-weight: bold;
+}
